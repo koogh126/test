@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 경로 표현 방법 -->
+<!--
+현재 input.html 경로가 http://localhost:9090/test/input.html 이므로 
+
+1. action="/test/InputServlet"
+2. action="InputServlet"
+3. action="http://localhost:9090/test/InputServlet"
+
+  -->
+<form action="InputServlet" method="post">
+<input type="text" name="name" value="테스트값"/>
+<input type="submit" value="전송"/>
+</form>
+</body>
+</html>
